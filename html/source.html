@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Old Cairo</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css.map">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/leaflet.css">
+        <style>
+            .map-sec {
+                margin-top: 30px;
+            }
+            .mymap {
+                width: 100%;
+                height: 600px;
+            }
+            .table-data {
+                padding: 50px;
+            }
+            
+            .data-sec {
+                padding-top: 50px;
+                padding-bottom: 50px; 
+                background-color: rgb(245,245,245);
+            }
+            #map { width: 100%  height: 250px; }
+        </style>
+   
+    </head>
+    <body>
+    <!-- Start Header -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <a class="navbar-brand">منطقة مصر القديمة السياحية</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="../index.html">الرئيسية</a>
+                        </li>
+                      
+                        <li class="nav-item">
+                          <a class="nav-link" href="../html/source.html">المناطق السياحية</a>
+                        </li>
+                          
+                        <li class="nav-item">
+                          <a class="nav-link" href="../html/team.html">فريق العمل</a>
+                        </li>                
+                      </ul>
+                 
+                </div>
+              </div>
+        </nav>
+    <!-- End Header -->
+     <!-- Start Map -->
+        <div class="map-sec container" >
+             <h2 class="main-title">خريطة المناطق السياحية</h2>
+            <iframe class="mymap" src="https://www.arcgis.com/apps/instant/basic/index.html?appid=38bc91e552a44a13bf344102c13f7d1d&locale=en-us" width="400" height="600" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
+
+        </div> 
+    <!-- End Map -->
+    <!-- Start places -->
+    <div class="places" id="places">
+      <h2 class="main-title"> المناطق السياحية</h2>
+      <div class="container">
+        <div class="box">
+          <img src="../imgs/cat-01.jpg" alt="" />
+          <div class="content">
+            <h3>جامع عمرو بن العاص</h3>
+            <p>جامع عمرو بن العاص أو (مسجد الفتح، المسجد العتيق، تاج الجوامع) هو أحد جوامع القاهرة التاريخية، أنشئ خلال عهد حكم عمرو بن العاص لمصر في مدينة الفسطاط التي أسسها المسلمون كأول عاصمة إسلامية. 
+كانت مساحة الجامع وقت إنشائه 50 ذراعاً في 30 ذراعاً وله ستة أبواب، وظل كذلك حتى عام 53هـ / 672م حيث توالت التوسعات فزاد من مساحته مسلمة بن مخلد الأنصاري والي مصر من قبل معاوية بن أبي سفيان وأقام فيه أربع مآذن، وتوالت الإصلاحات والتوسعات بعد ذلك علي يد من حكموا مصر حتى وصلت مساحته بعد عمليات التوسيع المستمرة نحو أربعة وعشرين ألف ذراع معماري،. وهو الآن 120 في 110أمتار.                                                                </p>
+          </div>
+          <div class="info">
+            <a href="">الرئيسية</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="../imgs/cat-02.jpg" alt="" />
+          <div class="content">
+            <h3>كنيسة مارجرجس</h3>
+            <p>كنيسة القديس جورج أو كنيسة مارجرجس هي كنيسة أرثوذكسية يونانية داخل قلعة بابل في القاهرة القبطية وهي جزء من دير القديس جاورجيوس البطريركي المقدس التابع لبطريركية الروم الأرثوذكس بالإسكندرية وجميع إفريقيا هي الكنيسة المستديرة الوحيدة في مصر.
+تم تشييدها في القرن العاشر على قمة البرج الروماني بحصن بابليون. والكنيسة مرتبطة بدير سانت جورج. والكنيسة هي مقر كرسي بابا وبطريرك كنيسة الإسكندرية للروم الأرثوذكس
+              </p>
+          </div>
+          <div class="info">
+            <a href="">الرئيسية</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="../imgs/cat-03.jpg" alt="" />
+          <div class="content">
+            <h3>كنيسة ابوسيفين</h3>
+            <p>كنيسة القديس مرقوريوس كنيسة قبطية أرثوذكسية تقع شمال حصن بابليون في مصر القديمة بين مجموعة من الكنائس المهمة، وداخل المنطقة المعروفة باسم دير أبو سيفين توجد ثلاث كنائس ودير إحدى هذه الكنائس مخصصة للقديس مرقوريوس، وهي الأكبر في منطقة بابل القديمة.[4] سميت الكنيسة على اسم القديس فيلوباتير مرقوريوس الملقب بأبي سيفين</p>
+          </div>
+          <div class="info">
+            <a href="">الرئيسية</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="../imgs/cat-04.jpg" alt="" />
+          <div class="content">
+            <h3>ضريح سليمان باشا الفرنساوي</h3>
+            <p>عهد إليه محمد علي بمهمة تكوين النواة الأولى من الضباط الذين سوف يعاونونه على تدرب الجنود المصريين فاختار له 500 من خاصة مماليكه ليبدأ بهم واختار له أسوان لتكون معسكراً لهذه المهمة بعيداً عن مؤامرات الجيش المختلط ومقاومتهم لكل جديد، وعينه محمد علي قائداً للجيش</p>
+          </div>
+          <div class="info">
+            <a href="">الرئيسية</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="../imgs/cat-05.jpg" alt="" />
+          <div class="content">
+            <h3>حصن بابليون</h3>
+            <p>بناه الامبراطور تراجان في القرن الثاني الميلادي زمن الاحتلال الروماني لمصرورممه اركاديوس</p>
+          </div>
+          <div class="info">
+            <a href="">الرئيسية</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="../imgs/cat-06.jpg" alt="" />
+          <div class="content">
+            <h3>المتحف القومي للحضارة</h3>
+            <p> متحف يقع في الفسطاط علي مساحة 33 فدان وهومتحف فريد من نوعة حيث يتيح لزائرية مشاهدة اثار متنوعة</p>
+          </div>
+          <div class="info">
+            <a href="">الرئيسية</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="../imgs/cat-07.jpg" alt="" />
+          <div class="content">
+            <h3>المتحف القبطي</h3>
+            <p>اسسه مرقس باشا 1910م وجمع تحف نادرة من الاديرة تعتبر اكبر مجموعة قبطية بالعالم</p>
+          </div>
+          <div class="info">
+            <a href="">الرئيسية</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="../imgs/cat-08.jpg" alt="" />
+          <div class="content">
+            <h3>كنيسة القديس جورج</h3>
+            <p>هى أحدى أقدم الكنائس</p>
+          </div>
+          <div class="info">
+            <a href="">الرئيسية</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+                  <div class="box">
+          <img src="../imgs/cat-09.jpg" alt="" />
+          <div class="content">
+            <h3>حديقة عين الصيرة</h3>
+            <p>تقع بالقرب من متحف الحضارة واصبحت متنزه بداخلها ممشى سياحي بطول 2500مولاندسكيب ونوافير مائية</p>
+          </div>
+          <div class="info">
+            <a href="">الرئيسية</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+                  <div class="box">
+          <img src="../imgs/cat-10.jpg" alt="" />
+          <div class="content">
+            <h3>حديقة الفسطاط</h3>
+            <p>مشروع تلال الفسطاط بالقاهرة  يرتادها السياح ىبشكل كبير لموقعها المميز </p>
+          </div>
+          <div class="info">
+            <a href="">الرئيسية</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+                  <div class="box">
+          <img src="../imgs/cat-11.jpg" alt="" />
+          <div class="content">
+            <h3>حديقة قصر الشمع</h3>
+            <p>حصن يقع بالقرب من جامع عمرو تم بناؤه في القرن الثاني الميلادي به تصميمات واشكال رائعة للفنانين</p>
+          </div>
+          <div class="info">
+            <a href="">الرئيسية</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+                  <div class="box">
+          <img src="../imgs/cat-12.jpg" alt="" />
+          <div class="content">
+            <h3>كنيسة سانت بربارة</h3>
+            <p> تقع داخل حصن بابليون واحدة من اقدم المباني في القاهرة تعود للقرن السادس الميلادي وهي للقديسة باربرة وهي ذات قدسية</p>
+          </div>
+          <div class="info">
+            <a href="">الرئيسية</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+                  <div class="box">
+          <img src="../imgs/cat-13.jpg" alt="" />
+          <div class="content">
+            <h3>معبد بن عزرا</h3>
+            <p> من اكبر المعابد واهمها رممته الحكومة وحولته لمزار سياحي يحتوي كتب لتاريح اليهود بمصر</p>
+          </div>
+          <div class="info">
+            <a href="">الرئيسية</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+ 
+
+      </div>
+    </div>
+    <div class="spikes"></div>
+    <!-- End places -->
+
+    <!-- Start table section-->
+         <div class="content">
+            <h3>المناطق السياحية المشهورة</h3>
+          </div>
+        <div class="table-data container">
+            <table class="table table-success table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">الاسم</th>
+                  <th scope="col">الوصف</th>
+                  <th scope="col">الموقع</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>جامع عمرو بن العاص</td>
+                  <td>أثار إسلامية</td>
+                  <td><a href="https://ar.wikipedia.org/wiki/%D9%85%D8%B3%D8%AC%D8%AF_%D8%B9%D9%85%D8%B1%D9%88_%D8%A8%D9%86_%D8%A7%D9%84%D8%B9%D8%A7%D8%B5_(%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9)" target="_blank"> click here </a></td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>كنيسة القديس جورج</td>
+                  <td>أثار قبطية</td>
+                    <td><a href="https://ar.wikipedia.org/wiki/%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D8%B3_%D8%AC%D9%88%D8%B1%D8%AC_(%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9)" target="_blank"> click here </a></td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>المتحف  القومى للحضارة</td>
+                  <td>أثار فرعوبية</td>
+                    <td><a href="https://nmec.gov.eg/ar/" target="_blank"> click here </a></td>
+                </tr>
+              </tbody>
+            </table>
+            
+        </div>
+     <!-- End table section-->
+     <!--Start footer-->
+        <footer>
+            <p> جميع الحقوق محفوظة  <a href="../html/team.html" target="_blank"> فريق العمل</a> </p>
+        </footer>
+     <!--End footer-->
+        
+        <script src="../js/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>
